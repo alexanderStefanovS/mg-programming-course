@@ -1,13 +1,20 @@
+//1. Напишете програма, която приема числo и изписва „Even“ ако числото е четно или „Odd” ако числото е нечетно.
 
 #include <iostream>
 
 using namespace std;
 
-int main()
-{
-	cout << "Oh, what,\n\ta happy day!\nOh, yes,\n\twhat a happy day!\n";
+int main (){
+    
+  int x;
+  cout << "x= ";
+  cin >> x;
 
-	// We use \t and \n to insert tab and new line in order to format the text. 
+  if (x % 2 == 0){
+      cout << "Even";
+    } else {
+      cout << "Odd";
+    }
 
-	return 0;
+  return 0;
 }
