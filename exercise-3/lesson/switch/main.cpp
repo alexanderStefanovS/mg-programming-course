@@ -9,6 +9,7 @@ int main()
     //Use the switch statement to select one of many code blocks to be executed
     //The value of the expression is compared with the values of each case and if is matched, the associated block of code is executed
     //When is reached a break keyword, it breaks out of the switch block and stop the execution of more cases and code.
+    //if there is no case match, default keyword specifies some code to run
     //break and default keywords are optional
     
 	char x = 'B';
