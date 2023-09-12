@@ -1,0 +1,48 @@
+
+Напишете проект имплементиращ играта "Камък, ножица, хартия" ("ROCK, PAPER, SCISSORS" game) на играч срещу
+компютъра. Играта започва с въвеждане от играча на броя на точките, до които ще се играе. След това на
+всеки ход (рунд) играчът избира символ R, P или S съответно за камък, хартия или ножица. Играта генерира
+избор на елемент за компютъра и го сравнява с този на играча, като изчислява резултатът към текущия рунд.
+Ако след края на рунда точките на играчът или компютърът са достогнали първоначално въведените точки, то
+играта обявява край и победа или загуба за играча. След края на една игра, програмата трябва да дава възможност
+за нова игра чрез въвеждане на Y или N. Ако играчът въведе Y започва нова игра. В противен случай програмата
+спира изпълнение. 
+
+Примерен конзолен интерфейс на играта:
+
+*** ROCK PAPER SCISSORS game! ***
+
+Enter the number of game points: 5
+
+-------------- THE GAME STARTED --------------
+
+Enter an element (R, P or S): P
+You chose PAPER. The computer chose SCISSORS.
+
+You lose the round! The result is 0 - 1.
+
+Enter an element (R, P or S): P
+You chose PAPER. The computer chose PAPER. 
+
+You the round is DRAW! The result is 0 - 1.
+
+...
+
+Enter an element (R, P or S): P
+You chose PAPER. The computer chose ROCK. 
+
+You win the round! The result is 5 - 1.
+
+You WIN the game! The result is 5 - 1! :D
+
+-------------- GAME OVER --------------
+
+Do you want to play again? (Y or N): Y
+
+---------------------------------------
+
+*** Rock PAPER SCISSORS game! ***
+
+Enter the number of game points: 5
+
+...
